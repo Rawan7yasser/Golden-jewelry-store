@@ -1,6 +1,6 @@
 {
-  "homepage":"https://Rawan7yasser.github.io/Jewelry-Store",
-  "name": "image-slider",
+  "homepage":"https://Rawan7yasser.github.io/Golden-jewelry-store",
+  "name": "Golden",
   "version": "1.0.0",
   "description":" A simple image slider using vanilla javascript.",
   "main": "index.js",
@@ -33,11 +33,8 @@
  },
 
  
-  "bugs": {
-    "url": "https://github.com/owner/project/issues",
-    "email": "project@hostname.com"
-  },
-    "repository": "npm/npm"
+
+    
   
   
 
