@@ -1,0 +1,46 @@
+{
+  "homepage":"https://Rawan7yasser.github.io/Jewelry-Store",
+  "name": "image-slider",
+  "version": "1.0.0",
+  "description":" A simple image slider using vanilla javascript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author":" ",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "gitignore": "^0.7.0",
+    "mongoose": "^8.3.1",
+    "nodemon": "^3.1.0",
+    "react": "^18.2.0",
+    "stripe": "^15.2.0"
+  },
+ " steps":{
+  "uses": "actions/checkout@v4",
+  "name":" Use Node.js",
+   " uses":" actions/setup-node@v4",
+   " with":{
+    " node-version":" '20.x'",
+    "name": "Install dependencies",
+     " run": "npm install"
+   }
+  
+ },
+
+ 
+  "bugs": {
+    "url": "https://github.com/owner/project/issues",
+    "email": "project@hostname.com"
+  },
+    "repository": "npm/npm"
+  
+  
+
+
+
+}
