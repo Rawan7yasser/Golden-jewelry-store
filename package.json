@@ -1,19 +1,23 @@
 {
-  "homepage": "https://Rawan7yasser.github.io/Golden-Jewelry-Store/index.js",
+  "homepage": "https://Rawan7yasser.github.io/Golden-Jewelry-Store",
   "name": "Golden-Jewelry-Store",
   "version": "1.0.0",
   "description": " A simple image slider using vanilla javascript.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "build": "node build index.html",
-    "serve": "node serve index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
+   
   },
+  
+
   "author": " ",
+  "engines": {
+    "node":" v20.10.0." 
+  },
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.8",
+    "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.10",
     "express": "^4.19.2",
@@ -23,17 +27,8 @@
     "nodemon": "^3.1.0",
     "react": "^18.2.0",
     "stripe": "^15.2.0"
-  },
-  " steps": {
-    "uses": "actions/checkout@v4",
-    "name": " Use Node.js",
-    " uses": " actions/setup-node@v4",
-    " with": {
-      " node-version": " '20.x'",
-      "name": "Install dependencies",
-      " run": "npm install"
-    }
   }
+  
   
 }
 
